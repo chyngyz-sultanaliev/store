@@ -11,7 +11,7 @@ a {
   margin: 0 auto;
 }
 body{
-  background: url("../src/assets/images/bg\ with\ shoe\ edited\ in\ photoshop.png")  ;
+  background: url("./assets/images/body.png")  ;
 }
 .app {
   display: flex;
