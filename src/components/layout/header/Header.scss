@@ -1,0 +1,35 @@
+#header {
+  padding: 10px 0;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    &--logo {
+      img {
+        width: 160px;
+      }
+    }
+    &--nav {
+      display: flex;
+      gap: 80px;
+      a {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+      }
+      .active {
+        border-bottom: 2px solid red;
+      }
+    }
+    &--cart {
+      display: flex;
+      gap: 80px;
+      a {
+        font-size: 28px;
+        font-weight: 700;
+        color: white;
+      }
+    }
+  }
+}
